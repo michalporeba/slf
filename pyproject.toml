@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "slf"
+version = "0.1.0"
+description = "Metadata management of an event flow with json-schema and json-ld"
+authors = ["Michał Poręba <michalporeba@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
